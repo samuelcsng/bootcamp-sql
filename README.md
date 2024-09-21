@@ -36,3 +36,11 @@
 - LIMIT
 
 - WHERE IN
+
+- JOIN
+  - INNER JOIN ON CONDITION
+
+- EXISTS / NOT EXISTS
+
+- SUB QUERY
+- Common Table Expression(CTE) + With
