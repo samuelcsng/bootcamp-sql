@@ -135,11 +135,89 @@
 
 
 
-
-
-
 ***
 ## Week-8 Day-2 20240924
+
+- indexing
+  - INDEX index_alias (column_to_be_indexed)
+  - where, group by, order by
+  - Why Indexing
+    - advantages
+      - Improved Query Performance
+      - Faster Sorting and Grouping
+      - Enhanced JOIN Operations
+      - Efficient Unique Value Enforcement
+      - Primary Key and Foreign Key Constraints
+      - Reduction in Disk I/O
+    - drawbacks
+      - Increased Storage
+      - Slower Write Operations
+      - Maintenance Overhead
+      - Complexity
+      - Choosing the Right Columns
+      - Outdated Statistics
+
+- View
+  - CREATE VIEW VIEW_NAME AS ...
+  - WHY USING VIEW
+    - ADVANTAGES
+      - Simplifies Queries
+      - Data Abstraction
+      - Data Security
+      - Consistency
+      - Logical Data Independence
+    - DOWNSIDES
+      - Performance Impact
+      - Maintenance Overhead
+      - Limited Complex Operations
+      - Potential Abstraction
+      - Dependent Queries
+
+- Materialized View
+  - not in MySQL, (ok in PostgresQL, ..)
+  - CREATE MATERIALIZED VIEW name AS ...
+  - REFRESH MATERIALIZED VIEW ...
+  - WHY MV?
+    - Advantages
+      - Improved Query Performance
+      - Reduced Load on the Database
+      - Data Aggregation and Reporting
+      - Offline Analysis
+      - Query Optimization
+      - Query Consistency
+    - Downsides
+      - Data Staleness
+      - Maintenance Overhead
+      - Storage Usage
+      - Complexity
+      - Real-Time Data
+      - Query Patterns 
+
+- Materialized Views vs Views
+  - Data Storage
+  - Data Freshness
+  - Performance
+  - Storage
+  - Usage
+  - Updates
+
+- Stored Procedure
+- Table trigger
+  - BEFORE AFTER
+  - INSERT UPDATE DELETE
+- Tables Triggers vs Procedures
+
+JAVA
+### week 9
+- maven
+  - mvn + pom.xml
+  - maven CLI:
+    - mvn clean -> BUILD SUCCESS
+    - mvn compile
+    - mvn clean compile
+
+
+
 
 ***
 ## Week-8 Day-3 20240925
