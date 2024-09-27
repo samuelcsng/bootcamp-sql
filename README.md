@@ -137,7 +137,7 @@
 
 ***
 ## Week-8 Day-2 20240924
-
+### SQL
 - indexing
   - INDEX index_alias (column_to_be_indexed)
   - where, group by, order by
@@ -208,73 +208,5 @@
 - Tables Triggers vs Procedures
 
 
-
-
-JAVA
-### week 9
-- Maven
-  - mvn + pom.xml
-  - maven CLI:
-    - mvn clean -> BUILD SUCCESS
-    - mvn compile
-    - mvn clean compile
-  - decompile
-
-
-
-
-***
-## Week-8 Day-3 20240925
-
-- Java version
-  - laptop JDK 17
-  - VScode Extension JDK -> laptop JDK
-  - laptop maven -> JDK 17
-  - maven project pom -> Java compiler 1.5
-
-- mvn clean + mvn compile
-- mvn clean compile
-- mvn test compile
-
-- Maven Cycle:
-  - mvn clean -> clear target folder
-  - mvn compile -> compile all java files under main folder
-  - mvn test compile -> Included "compile" step
-
-- https://mvnrepository.com
-- https://mvnrepository.com/repos
-
-- Library:
-  - 1. Implicitly import (JDK - java.lang), i.e. StringBuilder.class
-  - 2. Explicitly import (JDK - java.util, java.math), i.e. BigDecimal, ArrayList
-  - 3. External Library - Outside JDK (lombok), i.e. @Getter
-
-- When you initialize a mavin java project, it preloads JDK library under java.lang.
-
-- decompile
-
-- @Data
-  - Includes Getters, Setters, toString(), equals(), hashCode(), Constructor()
-- @NonNull
-
-- Class Level Annotation
-- Attribute Level (Field) Annotation
-- Parameter Level Annotation
-  - to generate exception checking
-
-- @Value
-
-- @...(exclude +{"...", "..."})
-
-
-
-
-
-***
-## Week-8 Day-4 20240926
-
-***
-## Week-8 Day-5 20240927
-
-
+### JAVA
 
